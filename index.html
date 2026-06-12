@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="MOOSMOOS Showroom Dresden: echte Mooswelten, pflegefreie Begrünung und individuelle Moosprojekte."
+    >
+    <meta name="theme-color" content="#0b0d0b">
+    <meta property="og:title" content="MOOSMOOS | Showroom Dresden">
+    <meta
+      property="og:description"
+      content="Echte Mooswelten. 0 % Pflege. Besuchen Sie den MOOSMOOS Showroom bei Dresden."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/moos-showroom.webp">
+    <title>MOOSMOOS | Showroom Dresden</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#links">Direkt zu den Links</a>
+
+    <main class="page-shell" aria-labelledby="profile-title">
+      <header class="profile-block">
+        <div class="hero-media">
+          <img
+            src="./assets/moos-showroom.webp"
+            alt="Großformatiges Moosbild mit Waldmoos, Farnen und Naturholz"
+            width="1254"
+            height="1254"
+          >
+          <div class="wordmark" aria-label="MOOSMOOS Showroom Dresden">
+            <strong id="profile-title">MOOS<span aria-hidden="true">·</span>MOOS</strong>
+            <span>Showroom Dresden</span>
+          </div>
+        </div>
+
+        <p class="tagline">Echte Mooswelten. 0 % Pflege.</p>
+        <p class="location-line">
+          <span class="location-dot" aria-hidden="true"></span>
+          Radeberg bei Dresden
+          <span aria-hidden="true">·</span>
+          Termine nach Vereinbarung
+        </p>
+      </header>
+
+      <nav class="link-list" id="links" aria-label="MOOSMOOS Links"></nav>
+
+      <a
+        class="featured-link"
+        href="https://www.google.com/maps/search/?api=1&amp;query=Alte+Hauptstra%C3%9Fe+53+01454+Radeberg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="featured-icon" aria-hidden="true"></span>
+        <span>Showroom Dresden besuchen</span>
+        <span class="featured-arrow" aria-hidden="true"></span>
+      </a>
+
+      <section class="contact-actions" id="contactActions" aria-label="Kontakt"></section>
+
+      <button class="share-save" type="button" id="copyButton">
+        <span class="share-save-icon" aria-hidden="true"></span>
+        <span id="copyButtonText">Link teilen</span>
+      </button>
+
+      <section class="shop-teaser" aria-labelledby="shop-title">
+        <img
+          src="./assets/moos-showroom.webp"
+          alt="Detail eines handgefertigten Moosbildes"
+          width="1254"
+          height="1254"
+        >
+        <div class="shop-content">
+          <p>Handgefertigte Unikate</p>
+          <h2 id="shop-title">Moosbilder im Shop</h2>
+          <a href="https://www.moosbild-shop.de/?ref=mms" target="_blank" rel="noopener noreferrer">
+            Zum Shop
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>Alte Hauptstraße 53 · 01454 Radeberg</p>
+        <p>MOOSMOOS ist eine Marke der Bergermann Floristik GmbH.</p>
+      </footer>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
